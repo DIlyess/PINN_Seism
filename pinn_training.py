@@ -1,9 +1,8 @@
-from importlib_metadata import requires
+from importlib.metadata import requires
 import torch
 import torch.nn as nn
 import torch.nn.functional as F 
 from torch import optim
-
 from torch.autograd import Variable
 from torch.autograd import grad
 import numpy as np
